@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Mary Hardy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: #fef9f5;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 8%;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .logo span {
+      color: #ff6600;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 400;
+    }
+
+    .btn-hire {
+      background: #ff6600;
+      padding: 10px 20px;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Hero section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 8%;
+      position: relative;
+      min-height: 85vh;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h3 {
+      font-weight: 400;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      border: none;
+      font-size: 0.95rem;
+    }
+
+    .btn-download {
+      background: #ff6600;
+      color: #fff;
+    }
+
+    .btn-contact {
+      background: transparent;
+      border: 2px solid #ff6600;
+      color: #ff6600;
+    }
+
+    /* Vertical Developer text */
+    .side-text {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(-90deg);
+      font-size: 3rem;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.1);
+      letter-spacing: 8px;
+    }
+
+    /* Hero image with circles */
+    .hero-image {
+      position: relative;
+    }
+
+    .circle-bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #ffe0c9 0%, #ffeedf 70%);
+      z-index: 0;
+    }
+
+    .hero-image img {
+      position: relative;
+      z-index: 1;
+      width: 350px;
+      border-radius: 5px;
+    }
+
+    /* Responsive */
+    @media(max-width: 992px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .side-text {
+        display: none;
+      }
+
+      .hero-image img {
+        width: 250px;
+      }
+
+      .circle-bg {
+        width: 350px;
+        height: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Ma<span>ry</span></div>
+    <nav>
+      <a href="#">Portfolio</a>
+      <a href="#">Blog</a>
+      <button class="btn-hire">Hire Me</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="side-text">Developer</div>
+    <div class="hero-text">
+      <h3>Hi, I am</h3>
+      <h1>Mary Hardy</h1>
+      <p>
+        Shot what able cold new see hold. Friendly as an betrayed formerly he.
+        Morning because as to society behaved moments.
+      </p>
+      <div class="buttons">
+        <button class="btn btn-download">⬇ Download CV</button>
+        <button class="btn btn-contact">📞 Contact</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle-bg"></div>
+      <img src="https://i.ibb.co/NFfGyfc/businessman.png" alt="Mary Hardy" />
+    </div>
+  </section>
+</body>
+</html>

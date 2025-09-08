@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border-style: border-box;
+}
+.wrapper{
+    overflow: hidden;
+    background-color: #FFF4EC;
+    
+}
+section{
+    display: flex;
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px ;
+    width: 75%;
+    margin-left: 150px;
+
+
+}
+nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+nav>p {
+      text-decoration: none;
+      color: #444;
+      font-weight: 400;
+      font-size: 25px
+}
+#mary{
+    font-size: 25px;
+}
+#R{
+    color: rgb(255, 21, 0);
+}
+#first{
+    background: #ff6600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height:50px ;
+    width: 130px;
+}
+#second{
+    background: #ff6600;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height:50px ;
+    width: 170px;
+
+}
+#third{
+    background: #ff6600;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height:50px ;
+    width: 130px;
+
+}
+nav p:hover {
+    color: orangered;
+}
+#first:hover {
+    background-color: #dc421ff8;
+}
+#second:hover{
+    background-color: #dc421ff8;
+}
+#third:hover{
+    background-color: #dc421ff8;
+}
+.main{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    margin-top: 100px;
+
+}
+#hi {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+}
+#hii{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#hiii{
+    font-size:1.5rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+}
+.container{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    margin-left: 50px;
+   
+  
+}
+
+
+.buttons{
+    margin-top: 70px;
+}
+.devol{
+     margin-left: 20px;
+     margin-top: 0px;
+     
+}
+.pictures{
+    position:relative;
+    margin-left: 700px;
+    background-image: url("header_bg.png");
+  background-repeat: no-repeat;
+  margin-right: 0px;
+   /* background-position:; */
+  background-size: cover;
+
+}
+.hardy2{
+    position: absolute;
+    
+}
